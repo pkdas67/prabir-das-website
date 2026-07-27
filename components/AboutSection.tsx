@@ -1,36 +1,36 @@
 const expertise = [
   "Statistics & Probability",
-  "Business Analytics",
-  "Financial Modelling",
-  "Operations Research",
+  "Machine Learning & AI",
   "Data Science",
-  "Research Methodology",
+  "Financial Risk Management",
+  "Business Analytics",
   "Econometrics",
-  "Machine Learning",
-  "Corporate Finance",
-  "Decision Analysis",
+  "Operations Research",
+  "Forecasting & Prediction",
+  "Research Methodology",
+  "Digital Finance & FinTech",
 ];
 
 const highlights = [
   {
     icon: "🎓",
-    title: "Academic Excellence",
-    text: "Over three decades of teaching at premier institutions, with expertise spanning statistics, analytics, and quantitative methods.",
+    title: "Academic Leadership",
+    text: "Professor & Head, Executive Management Programmes Division at IIFT, Kolkata Campus — serving since 2007 with over 30 years of combined academic, research, and corporate experience.",
   },
   {
     icon: "🔬",
     title: "Prolific Researcher",
-    text: "Author of 50+ peer-reviewed publications across leading journals in statistics, analytics, finance, and operations research.",
+    text: "50+ publications spanning peer-reviewed journals (Scopus/ABDC/WoS), book chapters (Springer, Bloomsbury), and conference proceedings. 12+ papers and 7 book chapters in the last five years alone.",
   },
   {
     icon: "💼",
-    title: "Corporate Experience",
-    text: "Rich industry experience in corporate finance, bridging the gap between academic rigour and real-world business applications.",
+    title: "Industry & Government Engagement",
+    text: "Provided consultancy to GeM (Ministry of Commerce), IOCL, STAREBS, and ICAI. Formerly Research Analyst & Head of Research Division at RR Financial Consultants, New Delhi.",
   },
   {
     icon: "🏛️",
     title: "Training & Development",
-    text: "Designed and delivered hundreds of training programs — both open and customised — for professionals across diverse industries.",
+    text: "Designed and delivered numerous MDPs on Business Analytics, Data Science, and Financial Risk Management for Government of West Bengal, ICAI, and leading corporate organizations.",
   },
 ];
 
@@ -63,39 +63,38 @@ export default function AboutSection() {
                     Prof. Prabir Kumar Das
                   </h3>
                   <p className="text-[#2563EB] font-medium mt-0.5">
-                    PhD · Professor
+                    PhD · Professor & Head (EMP Division)
                   </p>
                   <p className="text-gray-500 text-sm mt-1">
-                    Statistics & Analytics · Corporate Finance
+                    Statistics, Data Science & AI · Financial Risk Management
                   </p>
                 </div>
               </div>
 
               <div className="mt-6 space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  Prof. Prabir Kumar Das (P K Das) is a distinguished professor with
-                  nearly <strong>30 years of experience</strong> in teaching, research,
-                  and professional training. His academic journey spans premier
-                  institutions where he has mentored thousands of students and professionals.
+                  Prof. Prabir Kumar Das (P.K. Das) is a <strong>Professor and Head of the
+                  Executive Management Programmes Division</strong> at the Indian Institute
+                  of Foreign Trade (IIFT), Kolkata Campus, where he has been serving since 2007.
                 </p>
                 <p>
-                  With a specialisation in <strong>Statistics, Business Analytics</strong>,
-                  and <strong>Quantitative Methods</strong>, Prof. Das brings a rare
-                  combination of deep theoretical expertise and applied corporate
-                  experience in Finance to his work.
+                  With over <strong>30 years of combined experience</strong> across academia,
+                  government research (ICAR — 11 years as Scientist/Senior Scientist), and
+                  the corporate sector (RR Financial Consultants, New Delhi), Prof. Das brings
+                  a rare interdisciplinary perspective to his work.
                 </p>
                 <p>
-                  He has published <strong>50+ peer-reviewed research papers</strong> in
-                  reputed national and international journals, accumulating{" "}
-                  <strong>200+ citations</strong>. His research spans statistics,
-                  analytics, finance, econometrics, and operations research.
+                  His core areas of expertise include <strong>Statistics, Machine Learning &
+                  AI, Data Science, Econometrics, Financial Risk Management,</strong> and{" "}
+                  <strong>Business Analytics</strong>. He earned his PhD in Biostatistics from
+                  the Indian Agricultural Statistics Research Institute (IARI), New Delhi.
                 </p>
                 <p>
-                  As a sought-after trainer, Prof. Das conducts both{" "}
-                  <strong>open enrollment</strong> and <strong>customised</strong>{" "}
-                  training programs for corporates, government organizations, and academic
-                  institutions — helping professionals build analytical competencies for
-                  better decision-making.
+                  He has published <strong>50+ research contributions</strong> in reputed
+                  national and international journals (Scopus/ABDC/WoS) and has contributed
+                  book chapters in peer-reviewed volumes published by{" "}
+                  <strong>Springer Nature and Bloomsbury</strong>. He is a Mentor (Analytics)
+                  on the Board of Advanced Studies, The Institute of Cost Accountants of India.
                 </p>
               </div>
             </div>
@@ -144,6 +143,7 @@ export default function AboutSection() {
                   "Panel Moderator",
                   "Corporate Trainer",
                   "Research Mentor",
+                  "Government Advisor",
                   "Academic Consultant",
                 ].map((role) => (
                   <span
@@ -156,7 +156,9 @@ export default function AboutSection() {
               </div>
               <p className="text-white/80 text-sm mt-4">
                 Available for keynote addresses, panel discussions, faculty development
-                programs, and strategic consulting engagements.
+                programs, MDP delivery, and strategic consulting engagements. Delivered
+                invited lectures at IIM Bangalore, IIM Kolkata, IISc Bangalore, Indian
+                Naval Academy, NACIN, and others.
               </p>
             </div>
           </div>

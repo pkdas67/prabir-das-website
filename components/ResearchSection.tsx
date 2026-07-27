@@ -95,7 +95,7 @@ export default function ResearchSection() {
                   className={`px-2.5 py-1 rounded-full text-xs font-semibold flex-shrink-0 ${
                     pub.area === "Statistics"
                       ? "bg-blue-100 text-blue-700"
-                      : pub.area === "Analytics"
+                      : pub.area === "Machine Learning & AI"
                       ? "bg-purple-100 text-purple-700"
                       : pub.area === "Finance"
                       ? "bg-green-100 text-green-700"
@@ -115,6 +115,20 @@ export default function ResearchSection() {
               <p className="text-[#2563EB] text-xs font-medium mb-3">
                 {pub.journal}
               </p>
+
+              {pub.doi && (
+                <a
+                  href={pub.doi.startsWith("http") ? pub.doi : `https://doi.org/${pub.doi}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-gray-400 hover:text-[#2563EB] transition-colors mt-auto pt-3 border-t border-gray-50 flex items-center gap-1"
+                >
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                  DOI: {pub.doi.replace("https://doi.org/", "")}
+                </a>
+              )}
 
               {pub.citations !== undefined && (
                 <div className="flex items-center gap-1 text-xs text-gray-400 mt-auto pt-3 border-t border-gray-50">

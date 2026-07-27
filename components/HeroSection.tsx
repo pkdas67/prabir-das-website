@@ -44,13 +44,13 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-xl sm:text-2xl text-blue-100 font-medium mb-4">
-              PhD · Professor · Statistics & Analytics Expert
+              PhD · Professor · Statistics, ML & AI Expert
             </p>
 
             <p className="text-base sm:text-lg text-white/80 max-w-xl mb-8 mx-auto lg:mx-0 leading-relaxed">
-              30 years of excellence in teaching, research, and corporate training.
-              Specializing in Statistics, Business Analytics, and Financial Modelling —
-              helping professionals and organizations make data-driven decisions.
+              Professor & Head, Executive Management Programmes, IIFT Kolkata.
+              Specialising in Statistics, Machine Learning, AI, and Financial Risk Management —
+              bridging academic rigor with real-world data-driven decision-making.
             </p>
 
             {/* CTA Buttons */}

@@ -90,7 +90,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="w-56 h-56 sm:w-72 sm:h-72 rounded-full bg-white/10 backdrop-blur-sm border-4 border-white/30 flex items-center justify-center overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/prabir-kumar-das.jpg"
+                  src="/prabir-das-website/images/prabir-kumar-das.jpg"
                   alt="Prof. Prabir Kumar Das"
                   width={600}
                   height={500}

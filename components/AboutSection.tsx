@@ -58,7 +58,7 @@ export default function AboutSection() {
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 border border-blue-100 rounded-3xl p-8 mb-8">
               <div className="flex items-start gap-5">
                 <Image
-                  src="/images/prabir-kumar-das.jpg"
+                  src="/prabir-das-website/images/prabir-kumar-das.jpg"
                   alt="Prof. Prabir Kumar Das"
                   width={600}
                   height={500}

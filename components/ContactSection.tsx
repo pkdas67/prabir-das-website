@@ -19,8 +19,8 @@ const contactInfo = [
   {
     icon: "📧",
     label: "Email",
-    value: "pkdas@iift.edu",
-    href: "mailto:pkdas@iift.edu",
+    value: "brmkolkata@gmail.com",
+    href: "mailto:brmkolkata@gmail.com",
   },
   {
     icon: "🎓",
@@ -285,8 +285,8 @@ export default function ContactSection() {
                 {status === "error" && (
                   <p className="text-red-600 text-sm bg-red-50 border border-red-200 rounded-lg p-3">
                     Something went wrong. Please try again or email directly at{" "}
-                    <a href="mailto:pkdas@iift.edu" className="font-medium underline">
-                      pkdas@iift.edu
+                    <a href="mailto:brmkolkata@gmail.com" className="font-medium underline">
+                      brmkolkata@gmail.com
                     </a>
                   </p>
                 )}

@@ -46,7 +46,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3 mt-5">
               <a
-                href="mailto:pkdas67@gmail.com"
+                href="mailto:brmkolkata@gmail.com"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-gray-300 hover:bg-[#2563EB] hover:text-white transition-colors"
                 aria-label="Email"
               >

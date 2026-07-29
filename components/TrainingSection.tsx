@@ -165,7 +165,7 @@ export default function TrainingSection() {
               Discuss Your Requirements
             </a>
             <a
-              href="mailto:pkdas67@gmail.com"
+              href="mailto:brmkolkata@gmail.com"
               className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-white/10 border border-white/30 text-white font-semibold rounded-full hover:bg-white/20 transition-colors text-base"
             >
               📧 Email Directly

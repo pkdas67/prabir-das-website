@@ -54,7 +54,7 @@ export default function ResearchSection() {
         {/* Google Scholar CTA */}
         <div className="flex justify-center mb-10">
           <a
-            href="https://scholar.google.com"
+            href="https://scholar.google.com/citations?hl=en&user=CeOx8GUAAAAJ"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm font-medium text-[#2563EB] border border-[#2563EB] px-5 py-2.5 rounded-full hover:bg-blue-50 transition-colors"
@@ -160,7 +160,7 @@ export default function ResearchSection() {
             all publications and citation metrics.
           </p>
           <a
-            href="https://scholar.google.com"
+            href="https://scholar.google.com/citations?hl=en&user=CeOx8GUAAAAJ"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-[#2563EB] hover:underline"

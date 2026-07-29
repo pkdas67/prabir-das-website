@@ -56,7 +56,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://scholar.google.com"
+                href="https://scholar.google.com/citations?hl=en&user=CeOx8GUAAAAJ"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center text-gray-300 hover:bg-[#2563EB] hover:text-white transition-colors"

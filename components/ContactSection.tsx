@@ -26,7 +26,7 @@ const contactInfo = [
     icon: "🎓",
     label: "Google Scholar",
     value: "View Profile",
-    href: "https://scholar.google.com",
+    href: "https://scholar.google.com/citations?hl=en&user=CeOx8GUAAAAJ",
   },
   {
     icon: "💼",

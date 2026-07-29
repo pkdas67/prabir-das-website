@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const stats = [
   { value: "30+", label: "Years of Experience" },
   { value: "50+", label: "Research Papers" },
@@ -87,19 +89,13 @@ export default function HeroSection() {
           <div className="flex-shrink-0">
             <div className="relative">
               <div className="w-56 h-56 sm:w-72 sm:h-72 rounded-full bg-white/10 backdrop-blur-sm border-4 border-white/30 flex items-center justify-center overflow-hidden shadow-2xl">
-                {/* Placeholder avatar - replace with actual photo */}
-                <div className="w-full h-full bg-gradient-to-br from-[#1e40af] to-[#6d28d9] flex flex-col items-center justify-center">
-                  <svg
-                    className="w-24 h-24 sm:w-32 sm:h-32 text-white/60"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z" />
-                  </svg>
-                  <p className="text-white/70 text-xs sm:text-sm text-center mt-2 px-4">
-                    Photo coming soon
-                  </p>
-                </div>
+                <Image
+                  src="/images/prabir-kumar-das.jpg"
+                  alt="Prof. Prabir Kumar Das"
+                  width={600}
+                  height={500}
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               {/* Decorative rings */}
               <div className="absolute -inset-4 rounded-full border border-white/10" />

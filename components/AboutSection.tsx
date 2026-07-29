@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const expertise = [
   "Statistics & Probability",
   "Machine Learning & AI",
@@ -55,9 +57,13 @@ export default function AboutSection() {
             {/* Profile card */}
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 border border-blue-100 rounded-3xl p-8 mb-8">
               <div className="flex items-start gap-5">
-                <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#2563EB] to-[#7C3AED] flex items-center justify-center text-white text-2xl font-bold flex-shrink-0">
-                  PD
-                </div>
+                <Image
+                  src="/images/prabir-kumar-das.jpg"
+                  alt="Prof. Prabir Kumar Das"
+                  width={600}
+                  height={500}
+                  className="w-20 h-20 rounded-2xl object-cover object-top flex-shrink-0"
+                />
                 <div>
                   <h3 className="text-xl font-bold text-gray-900">
                     Prof. Prabir Kumar Das
